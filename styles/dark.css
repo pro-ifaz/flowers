@@ -1,18 +1,19 @@
-*{
+*{ background: #111010;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
 main a{
     margin-left: 150px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 /*shared styles*/
 section{
+    background: #111010;
     margin-bottom: 150px;
 }
 .common-text{
-    color: rgba(39, 39, 39, 0.60);
+    color: white;
     font-size: 18px;
     font-weight: 400;
 }
@@ -26,14 +27,14 @@ section{
     font-weight: 700;
 }
 .common-regular-text{
-    color: #272727;
+    color: white;
     text-align: center;
     font-size: 30px;
     font-weight: 800;
     }
 /*banner styles*/
 .banner-title{
-    color: #272727;
+    color: white;
     font-size: 50px;
     font-weight: 800;
     width: 500px;
@@ -44,8 +45,8 @@ section{
     align-items: center;
     gap: 100px;
     padding: 0 150px;
-    background: rgba(229, 84, 115, 0.10);
     margin-bottom: 150px;
+    background: #111010;
 }
 .banner img{
     width: 400px;
@@ -66,25 +67,19 @@ section{
     height: 300px;
     padding: 30px 20px;
 }
-.featured-flower-1  {
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(167, 33, 98, 0.15);
+.featured-flower-1,.featured-flower-2,.featured-flower-3  {
+    border: 3px solid #E55473;
+    background: #111010;
+    border-radius: 5px;
+
 }
-.featured-flower-2 {
-border-radius: 300px 300px 0px 0px;
-background: rgba(5, 151, 160, 0.15);
-}
-.featured-flower-3{
-    border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);
-}
+
 /*hot deal styles*/
 .hot-deal{
     display: flex;
     align-items: center;
     gap: 100px;
     padding: 0 150px;
-    background: rgba(229, 84, 115, 0.10);
     text-align: center;
 }
 /*instagram styles*/
@@ -92,7 +87,7 @@ background: rgba(5, 151, 160, 0.15);
 .instagram{
     display: flex;
     gap: 5px ;
-    background: rgba(229, 84, 115, 0.10);
+
     padding: 0 150px;
     justify-content: space-between;
 }
@@ -101,18 +96,19 @@ background: rgba(5, 151, 160, 0.15);
 }
 /*latest deal styles*/
 .latest-deals{
-    margin: 0px 150px;
-    height: 450px;
-    background-image: url('../assets/Rectangle-9.png');
-    background-repeat: no-repeat;
+   border: 3px solid #E55473;
+   padding: 100px;
+   border-radius: 10px;
+    
 }
 .submit-opt{
     text-align: center;
 }
 .submit-opt input[type="email"]{
     padding: 20px 150px;
-    border: none;
+    border: 1px solid white;
     border-radius: 8px;
+    color: white;
 }
 footer{
     text-align: center;
