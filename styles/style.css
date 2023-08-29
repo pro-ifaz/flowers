@@ -93,3 +93,18 @@ background: rgba(5, 151, 160, 0.15);
 .instagram img{
     width: 250px;
 }
+/*latest deal styles*/
+.latest-deals{
+    margin: 0px 150px;
+    height: 450px;
+    background-image: url('../assets/Rectangle-9.png');
+    background-repeat: no-repeat;
+}
+.submit-opt{
+    text-align: center;
+}
+.submit-opt input[type="email"]{
+    padding: 20px 150px;
+    border: none;
+    border-radius: 8px;
+}
